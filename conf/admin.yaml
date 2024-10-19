@@ -12,19 +12,19 @@ navbarColor: <ui header color>                               # header color for 
 navbarTitle: <ui title text>                                 # header title for web UI (e.g. "PROD")
 
 # Basic Auth
-isBasicAuth: <true|false>                                    # enables basic auth
-basicAuthUsername: <username for basic auth of web UI>       # basic auth user
-basicAuthPassword: <password for basic auth of web UI>       # basic auth password
+isBasicAuth: true
+basicAuthUsername: __ADMIN__
+basicAuthPassword: __PASSWORD__
 
 # API Token
 isAuthToken: <true|false>                                    # enables API token
 authToken: <token for API access>                            # API token
 
 # Base Config
-baseConfig: <base DAG config path>                           # default: ${HOME}/.config/dagu/base.yaml
+baseConfig: __INSTALL_DIR__/.config/dagu/base.yaml                          # default: ${HOME}/.config/dagu/base.yaml
 
 # Working Directory
-workDir: <working directory for DAGs>                        # default: DAG location
+workDir: ${HOME}/.config/dagu/base.yaml                      # default: DAG location
 
 # SSL Configuration
 tls:
