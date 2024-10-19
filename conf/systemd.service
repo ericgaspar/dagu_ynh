@@ -1,5 +1,5 @@
 [Unit]
-Description=Dagu
+Description=Dagu: Cron alternative
 After=network.target
 
 [Service]
